@@ -1,0 +1,125 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1060px;
+    height: 950px;
+}
+
+.logo {
+    margin: 50px 0 40px 50px;
+    font-weight: 500;
+    font-size: 40pt;
+    color: black;
+}
+
+header {
+
+    height: 40px;
+    width: 950px;
+    background-color: #575656;
+    margin: 0 50px 40px 50px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ header ul li {
+    float: left;
+    padding: 10px 25px 10px 25px;
+}
+
+ a {
+     text-decoration: none;
+ }
+header ul li a {
+
+    color: white;
+    font-family: Myriad Pro Regular;
+    font-size: 11pt;
+}
+
+header ul li:hover {
+    cursor: pointer;
+    background-color: #484848;
+}
+
+section {
+
+    margin: 0 0 0 50px;
+}
+
+.one {
+    float: left;
+    border: solid 1px #c8c8c8;
+
+}
+.one li{
+
+    padding: 10px 44px 10px 10px;
+    border-bottom: solid 1px #c8c8c8;
+}
+
+.one a {
+    color: #a3a1a1;
+    font-family: OpenSans Regular;
+    font-size: 9pt;
+
+}
+section ul li:hover {
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.two {
+    float: left;
+    border: solid 1px #c8c8c8;
+    margin: 0 0 0 50px;
+    width: 725px;
+    height: 400px;
+}
+.two img {
+    width: 725px;
+    height: 400px;
+
+}
+
+.three {
+    float: right;
+    width: 680px;
+    height: 160px;
+    margin: 40px 80px 5px 0;
+}
+
+
+footer {
+    height: 40px;
+    width: 950px;
+    background-color: #e1e1e1;
+    position: absolute;
+    margin: 620px 10px 0px 50px;
+}
+footer ul li {
+    float: left;
+    padding: 10px 25px 10px 25px;
+}
+
+footer ul li a {
+
+    color: #5c5c5c;
+    font-family: Myriad Pro Regular;
+    font-size: 11pt;
+}
+
+footer p {
+    ;
+    float: right;
+    margin: 10px;
+}
