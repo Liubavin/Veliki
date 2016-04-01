@@ -13,16 +13,14 @@
 
 .logo {
     margin: 50px 0 40px 50px;
-    font-weight: 500;
-    font-size: 40pt;
-    color: black;
+
 }
 
 header {
 
     height: 40px;
     width: 950px;
-    background-color: #575656;
+    background: linear-gradient(to top , #444343, #5e5e5e);
     margin: 0 50px 40px 50px;
 
 }
@@ -33,7 +31,19 @@ li {
 
  header ul li {
     float: left;
+
+}
+header ul li:nth-child(1) {
     padding: 10px 25px 10px 25px;
+}
+header ul li:nth-child(2) {
+    padding: 10px 55px 10px 25px;
+}
+header ul li:nth-child(3) {
+    padding: 10px 50px 10px 25px;
+}
+header ul li:nth-child(4) {
+    padding: 10px 55px 10px 50px;
 }
 
  a {
@@ -42,13 +52,17 @@ li {
 header ul li a {
 
     color: white;
-    font-family: Myriad Pro Regular;
+    font-family: OpenSans Regular;
     font-size: 11pt;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 header ul li:hover {
     cursor: pointer;
     background-color: #484848;
+   border-right: solid 1px #838383;
+   border-left: solid 1px #838383;
 }
 
 section {
@@ -76,6 +90,12 @@ section {
 section ul li:hover {
     cursor: pointer;
     background-color: #f9f9f9;
+    padding: 10px 33px 10px 21px;
+
+}
+
+section ul li:hover a {
+    color: black;
 }
 
 .two {
@@ -86,8 +106,7 @@ section ul li:hover {
     height: 400px;
 }
 .two img {
-    width: 725px;
-    height: 400px;
+    padding: 34px 0 0 116px;
 
 }
 
@@ -96,15 +115,16 @@ section ul li:hover {
     width: 680px;
     height: 160px;
     margin: 40px 80px 5px 0;
+    line-height: 25px;
 }
 
 
 footer {
     height: 40px;
     width: 950px;
-    background-color: #e1e1e1;
     position: absolute;
-    margin: 620px 10px 0px 50px;
+    margin: 660px 10px 0px 50px;
+    background: #e1e1e1;
 }
 footer ul li {
     float: left;
@@ -113,12 +133,17 @@ footer ul li {
 
 footer ul li a {
 
-    color: #5c5c5c;
+    color: #444444;
     font-family: Myriad Pro Regular;
     font-size: 11pt;
+}
+
+footer ul li:hover a {
+    text-decoration: underline;
 }
 
 footer p {
     float: right;
     margin: 10px;
 }
+
